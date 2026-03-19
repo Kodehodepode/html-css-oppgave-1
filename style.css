@@ -15,7 +15,8 @@ header img {
   width: 500px;
 }
 
-header {
+header,
+footer {
   text-align: center;
 }
 
