@@ -1,0 +1,46 @@
+body {
+  /* body elementet styler hele siden. Allt inni body taggen (allt synlig på siden) påvirkes av disse reglene. */
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+header h1 {
+  letter-spacing: 14px;
+  text-transform: uppercase;
+  font-family: Times; /* Denne regelen er med spesifik enn body-reglene og overskrider skrift-valget
+  som undervist i "Kaskade og Spesifisitet" på https://jobloop.instructure.com/courses/534/pages/html-and-css-1-3-margin-padding-border-classes-and-ids-2 */
+}
+
+header img {
+  width: 500px;
+}
+
+header {
+  text-align: center;
+}
+
+h2 {
+  font-weight: normal; /* Skrur av fet tekst på overskrifter */
+}
+header,
+main,
+footer {
+  padding: 20px;
+  padding-top: 10px;
+  /* Mindre padding øverst kompenserer for at h1 og h2 elementer har innebygget margin som legges til padding. */
+  /* margin-top er dokumentert på https://www.w3schools.com/cssref/pr_margin-top.php */
+}
+
+main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+header {
+  background: rgb(173, 148, 255);
+}
+main {
+  background: rgb(191, 196, 200);
+}
+footer {
+  background: rgb(121, 121, 192);
+}
