@@ -45,3 +45,7 @@ main {
 footer {
   background: rgb(121, 121, 192);
 }
+
+mark {
+  padding: 4px;
+}
