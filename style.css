@@ -13,6 +13,7 @@ header h1 {
 
 header img {
   width: 300px;
+  border-radius: 20px;
 }
 
 header,
@@ -52,4 +53,5 @@ mark {
 
 header {
   padding: 20px;
+  border-radius: 20px;
 }
