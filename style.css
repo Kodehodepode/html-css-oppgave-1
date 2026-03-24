@@ -12,7 +12,7 @@ header h1 {
 }
 
 header img {
-  width: 500px;
+  width: 300px;
 }
 
 header,
@@ -48,4 +48,8 @@ footer {
 
 mark {
   padding: 4px;
+}
+
+header {
+  padding: 20px;
 }
