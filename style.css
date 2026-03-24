@@ -42,14 +42,12 @@ main {
 body {
   background: rgb(96, 96, 96);
 }
-header {
+header,
+footer {
   background: rgb(200, 194, 220);
 }
 main {
   background: rgb(149, 155, 159);
-}
-footer {
-  background: rgb(122, 122, 153);
 }
 
 mark {
