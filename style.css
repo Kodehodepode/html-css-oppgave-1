@@ -19,6 +19,7 @@ header img {
 header,
 footer {
   text-align: center;
+  border-radius: 20px;
 }
 
 h2 {
@@ -57,7 +58,6 @@ mark {
 
 header {
   padding: 20px;
-  border-radius: 20px;
 }
 
 main {
