@@ -37,14 +37,18 @@ main {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+body {
+  background: rgb(96, 96, 96);
+}
 header {
-  background: rgb(173, 148, 255);
+  background: rgb(200, 194, 220);
 }
 main {
-  background: rgb(191, 196, 200);
+  background: rgb(149, 155, 159);
 }
 footer {
-  background: rgb(121, 121, 192);
+  background: rgb(122, 122, 153);
 }
 
 mark {
